@@ -85,6 +85,11 @@
       "usage": "Usage: !setbal <user> <bal>",
       "from": ".economy.setbal",
       "description": "Rich become richer 2"
+    },
+    "!source": {
+      "usage": "Usage: !source <user> <bal>",
+      "from": ".utillity.src",
+      "description": "Rich become richer 2"
     }
   }
 }
