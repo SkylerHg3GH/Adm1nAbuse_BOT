@@ -38,7 +38,7 @@ bot:
 ```
 - bans.yml
 Format:
-```
+```yml
 players:
   Someone:
     banned: true
