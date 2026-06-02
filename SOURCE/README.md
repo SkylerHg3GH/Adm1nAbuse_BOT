@@ -21,5 +21,31 @@ This bot was specifically made for the Minecraft server `adm1nabuse.net`
 ## How to use?
 
 Download minescript from `minescript.net`, and put this repo into your `exec` folder, preferrably with something like `Bot\`<br>
-Next, just do `Bot\bot` and you are done! You are now hosting an entire bot!
+Next, just do `Bot\bot` and you are done! You are now hosting an entire bot!<br>
+
+### Files that must be added
+- config.yml
+EXAMPLE CONFIG
+
+```yml
+qm:
+  msgQueueInterval: 0.3
+  warning: 5 # How long queue must be before it warns
+messages:
+  invalidExpressionMessage: "invalid expression :)"
+bot:
+  typoDetectionScoreCutoff: 70
+```
+- bans.yml
+Format:
+```
+players:
+  Someone:
+    banned: true
+    reason: "Bad people stay ban"
+```
+- pdata.json
+Data: `{}`
+- queue.txt
+You do not need this, but its fine if you wanna add it. Just make sure it is empty.
 
