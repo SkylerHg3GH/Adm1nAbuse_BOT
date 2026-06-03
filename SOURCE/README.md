@@ -22,6 +22,7 @@ This bot was specifically made for the Minecraft server `adm1nabuse.net`
 
 Download minescript from `minescript.net`, and put this repo into your `exec` folder, preferrably with something like `Bot\`<br>
 Next, just do `Bot\bot` and you are done! You are now hosting an entire bot!<br>
+**YOU MUST NOT USE THE SAME COMMAND PREFIX, THAT IS `!`.**
 
 ### Files that must be added
 - config.yml
