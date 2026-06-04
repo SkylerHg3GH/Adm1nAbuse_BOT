@@ -9,6 +9,7 @@ bans.yml
 pdata.json
 bal.json
 queue.txt
+perms.yml
 
 # C extensions
 *.so
