@@ -9,6 +9,7 @@ Some parts are not sourced here. Do not ask why
 - pdata.json
 - bal.json
 - queue.txt
+- perms.yml
 
 ## Up to date?
 
@@ -49,4 +50,11 @@ players:
 Data: `{}`
 - queue.txt
 You do not need this, but its fine if you wanna add it. Just make sure it is empty.
+- perms.yml
+Example:
+```yml
+SkylerHg3: [
+  "meanie.namespace/value
+]
+```
 
