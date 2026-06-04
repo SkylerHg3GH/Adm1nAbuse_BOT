@@ -1,0 +1,95 @@
+{
+  "commands": {
+    "!cmds": {
+      "usage": "Usage: !cmds",
+      "from": ".command_cmds",
+      "description": "List all commands."
+    },
+    "!hi": {
+      "usage": "Usage: !hi",
+      "from": ".introductory.hi"
+    },
+    "!help": {
+      "from": ".mistake"
+    },
+    "!rules": {
+      "from": ".mistake"
+    },
+    "!bye": {
+      "usage": "Usage: !bye",
+      "from": ".introductory.bye"
+    },
+    "!quack": {
+      "usage": "Usage: !quack",
+      "from": ".introductory.quack"
+    },
+    "!math": {
+      "usage": "Usage: !math <expression>",
+      "from": ".utillity.math",
+      "description": "Execute a math expression."
+    },
+    "!trig": {
+      "usage": "Usage: !trig <expression>",
+      "from": ".utillity.trig",
+      "description": "Execute a math expression (with trigonometry equations)."
+    },
+    "!gay": {
+      "usage": "Usage: !gay",
+      "from": ".funny.gay"
+    },
+    "!lesbian": {
+      "usage": "Usage: !lesbian",
+      "from": ".funny.lesbian"
+    },
+    "!bal": {
+      "usage": "Usage: !bal [user]",
+      "from": ".economy.bal",
+      "description": "Get your balance or someone elses"
+    },
+    "!cmdinfo": {
+      "usage": "Usage: !cmdinfo <command, including ! prefix> [usage|description|dest]",
+      "from": ".debug.cmdinfo",
+      "description": "Internal stuff"
+    },
+    "!coinflip": {
+      "usage": "Usage: !coinflip [<heads> <tails>]",
+      "from": ".utillity.coinflip",
+      "description": "Coinflip"
+    },
+    "!random": {
+      "usage": "Usage: !random <choices separated by ,>",
+      "from": ".utillity.random",
+      "description": "Choose a random string out of the choices separated by ,"
+    },
+    "!roll": {
+      "usage": "Usage: !roll <your money away>",
+      "from": ".economy.gambling.gamble",
+      "description": "Gomble"
+    },
+    "!diceroll": {
+      "usage": "Usage: !diceroll <your money away>",
+      "from": ".economy.gambling.diceroll",
+      "description": "Diceroll! 1 in 10 chance of getting 10x your money!"
+    },
+    "!baltop": {
+      "usage": "Usage: !baltop",
+      "from": ".economy.baltop",
+      "description": "get the msot rich"
+    },
+    "!pay": {
+      "usage": "Usage: !pay <user> <money>",
+      "from": ".economy.pay",
+      "description": "Rich become richer"
+    },
+    "!eco": {
+      "usage": "Usage: !eco <get|add|set> <user> [bal]",
+      "from": ".economy.eco",
+      "description": "Get the richhy"
+    },
+    "!source": {
+      "usage": "Usage: !source <user> <bal>",
+      "from": ".utillity.src",
+      "description": "Rich become richer 2"
+    }
+  }
+}
