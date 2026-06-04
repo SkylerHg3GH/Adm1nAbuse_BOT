@@ -3,6 +3,13 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Botfiles
+config.yml
+bans.yml
+pdata.json
+bal.json
+queue.txt
+
 # C extensions
 *.so
 
