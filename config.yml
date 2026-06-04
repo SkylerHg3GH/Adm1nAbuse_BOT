@@ -1,7 +1,0 @@
-qm:
-  msgQueueInterval: 0.3
-  warning: 5 # How long queue must be before it warns
-messages:
-  invalidExpressionMessage: "invalid expression :)"
-bot:
-  typoDetectionScoreCutoff: 70
