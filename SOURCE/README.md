@@ -13,8 +13,8 @@ Some parts are not sourced here. Do not ask why
 
 ## Up to date?
 
-The last change was made on **6/4/2026**. 3 changes have been made in total.
-
+The last change was made on **6/6/2026**. 4 changes have been made in total.
+First change was made on 6/1/2026
 ## Where to host?
 
 This bot was specifically made for the Minecraft server `adm1nabuse.net`
